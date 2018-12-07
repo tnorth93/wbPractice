@@ -1,0 +1,32 @@
+{
+  "name": "wbpractice",
+  "version": "1.0.0",
+  "description": "whiteboard practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint . && jest --coverage",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tnorth93/wbPractice.git"
+  },
+  "author": "Tom North",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tnorth93/wbPractice/issues"
+  },
+  "homepage": "https://github.com/tnorth93/wbPractice#readme",
+  "dependencies": {
+    "eslint": "^5.5.0",
+    "eslint-plugin-dependencies": "^2.4.0",
+    "eslint-plugin-jest": "^21.22.0",
+    "jest": "^23.6.0",
+    "queue": "^4.5.0",
+    "queue-fifo": "^0.2.5"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
