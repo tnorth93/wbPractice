@@ -14,6 +14,7 @@ describe('#roman-to-integer.js', () => {
   });
 
   test('return correct with all addition', () => {
-    let correctAns = romanToInteger()
+    let correctAns = romanToInteger('CLVI');
+    expect(correctAns).toEqual(156);
   });
 });
