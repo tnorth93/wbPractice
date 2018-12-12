@@ -1,4 +1,4 @@
-const reverse = function(x) {
+const reverse = module.exports = function(x) {
   if (x <= Math.pow(-2, 31) || x >= (Math.pow(2, 31) - 1)) {
     return 0;
   }
