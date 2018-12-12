@@ -7,12 +7,11 @@ describe('#reverse-integer.js', () => {
     expect(reverseInteger(11111111111111111)).toEqual(0);
   });
 
-  test('return correct all being equal', () => {
-    let correctAns = romanToInteger('III');
-    expect(correctAns).toEqual(3);
+  test('return reversed number if valid 32-bit signed integer', () => {
+    expect(reverseInteger(123456)).toEqual(654321);
   });
 
-  test('return correct with all addition', () => {
+  test('return reversed negative number if valid 32-bit signed integer', () => {
     let correctAns = romanToInteger('CLVI');
     expect(correctAns).toEqual(156);
   });
