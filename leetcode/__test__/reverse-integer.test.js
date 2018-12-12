@@ -12,7 +12,6 @@ describe('#reverse-integer.js', () => {
   });
 
   test('return reversed negative number if valid 32-bit signed integer', () => {
-    let correctAns = romanToInteger('CLVI');
-    expect(correctAns).toEqual(156);
+    expect(reverseInteger(-115388)).toEqual(-883511);
   });
 });
